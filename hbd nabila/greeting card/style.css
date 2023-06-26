@@ -1,0 +1,253 @@
+@font-face {
+    font-family: jnck0;
+    src: url(Schindler.ttf);
+}
+
+@font-face {
+    font-family: jnck1;
+    src: url(Ngadem\ Kontras.ttf);
+}
+
+@font-face {
+    font-family: jnck2;
+    src: url(Evelyn.ttf);
+}
+@font-face {
+    font-family: jnck3;
+    src: url(Virtusverona\ Handlettering.ttf);
+    
+}
+@font-face {
+    font-family: jnck4;
+    src: url(Thecity\ Regular.ttf);
+}
+
+@font-face {
+    font-family: jnck5;
+    src: url(Folcloricatypewriter.ttf);
+}
+@font-face {
+    font-family: jnck6;
+    src: url(Halloween\ Bamboo.ttf);
+}
+@font-face {
+    font-family: jnck7;
+    src: url(Purple\ Hope.ttf);
+}
+@font-face {
+    font-family: jnck8;
+    src: url(Brother\ Dreams.ttf);
+}
+@font-face {
+    font-family: jnck9;
+    src: url(Minecraft.ttf);
+}
+@font-face {
+    font-family: syg;
+    src: url(WitcherHandwritingRegular-GO5vO.ttf);
+}
+@font-face {
+    font-family: jnck11;
+    src: url(Doggie-vmGe7.ttf);
+}
+@font-face {
+    font-family: jnck12;
+    src: url(Wedding\ Zighead.otf);
+}
+@font-face {
+    font-family: roblox;
+    src: url(Heart\ Affairs\ Script.ttf);
+}
+@font-face {
+    font-family: roblox1;
+    src: url(Folcloricatypewriter.ttf)
+}
+@font-face {
+    font-family: roblox2;
+    src: url(Radditya\ Signature.ttf);
+}
+@font-face {
+    font-family: roblox3;
+    src: url(Alishanty.ttf);
+}
+@font-face {
+    font-family: roblox4;
+    src: url(CRUSH\ Regular.ttf);
+} @font-face {
+    font-family: roblox5;
+    src: url(Euphoria\ Shades\ Rough.ttf);
+}
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 4px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+prt {
+    color: #000000;
+    font-size: 17px;
+    font-family: roblox2;
+   
+}
+p {
+    font-size: 15px;
+    font-family: roblox1;
+     
+
+}
+li1 {
+    font-size: 43px;
+    font-family: roblox3
+   
+}
+lil {
+    font-size: 15px;
+    font-family: roblox ;
+   
+
+
+    
+
+}   
+li {
+    font-size: 19px;
+    font-family: jnck12;
+    color:#000000;
+    padding-top: 19px;
+
+}
+p1 {
+    
+    
+    font-size: 45px;
+    font-family: jnck8;
+    color:#97adc9;
+    
+    
+
+}
+
+h4 {
+    
+    font-size: 31px;
+    font-family: syg;
+    color: #364f6b;
+    font-family: roblox4;
+    padding-bottom: 10px;
+    
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+
+
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+   
+}
+
+
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+h2 {
+    font-family: 'syg';
+    
+    font-size: 13px;
+    margin-bottom: 3px;
+    color: #b99e75;
+    width: 100%;
+    line-height: 15px;
+}
+
+h4 {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 80px 20px 90px 20px;
+  }
+  
+  .animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+    /*  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
+                    </script><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_HkZ5RKdOOR.json"  
+                    background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player> */
+  }
+  
+
